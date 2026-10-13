@@ -47,6 +47,17 @@ venv/bin/python synthesize.py --list
 2. 写准逐字稿 `ref.txt`（必须和音频逐字对应，错一个字都会影响克隆质量）。
 3. 写 `meta.yaml`（参考现有），然后 `synthesize.py --list` 确认。
 
+## GitHub 备份
+
+代码与音色元数据直接在 [Wisely88/voice-library](https://github.com/Wisely88/voice-library)
+备份。参考音频（mp3 二进制）以 base64 文本形式存为 `voices/<id>/ref.mp3.b64`
+（MCP 通道传不了二进制），还原：
+
+```bash
+base64 -d voices/diandian/ref.mp3.b64 > voices/diandian/ref.mp3
+ffmpeg -y -i voices/diandian/ref.mp3 -ar 32000 -ac 1 voices/diandian/ref.wav
+```
+
 ## 接入视频管线
 
 `pipeline` 的 `lesson.yaml` 里：
