@@ -1,0 +1,9 @@
+name: 四川话博主
+id: sichuan
+seed_voice: video:YouTube四川话段子独白（截取改制）
+source_url: https://www.youtube.com/watch?v=3Yj_R8Ejqx8
+lang: zh
+role: 四川方言口音普通话，幽默段子手男声；方言特色音色
+ref_audio: ref.wav
+engine: gpt-sovits zero-shot
+created: 2026-10-13
