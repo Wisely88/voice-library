@@ -1,0 +1,9 @@
+name: 粤语说书人
+id: canto
+seed_voice: video:YouTube粤语讲古（截取改制）
+source_url: https://www.youtube.com/watch?v=HdVpmgdd5Bc
+lang: yue
+role: 真粤语特色音色，讲古旁白风格男声；ref为书面粤语
+ref_audio: ref.wav
+engine: gpt-sovits zero-shot
+created: 2026-10-13
