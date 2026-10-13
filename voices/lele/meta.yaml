@@ -1,0 +1,8 @@
+name: 乐乐
+id: lele
+seed_voice: derived:diandian+5st
+lang: zh
+role: 故事版小男孩主角，阳光探险家，音色由电电老师变调设计
+ref_audio: ref.wav
+engine: gpt-sovits zero-shot
+created: 2026-10-13
