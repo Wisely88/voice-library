@@ -1,0 +1,8 @@
+name: 米娅
+id: mia
+seed_voice: derived:v1narrator+3st
+lang: zh
+role: 故事版小女孩主角，好奇心强，音色由微课旁白变调设计
+ref_audio: ref.wav
+engine: gpt-sovits zero-shot
+created: 2026-10-13
