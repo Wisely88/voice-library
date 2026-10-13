@@ -1,0 +1,8 @@
+name: 睿博士
+id: drhoot
+seed_voice: derived:narrator-4st
+lang: zh
+role: 故事版猫头鹰博士，睿智长者，音色由旁白降调设计
+ref_audio: ref.wav
+engine: gpt-sovits zero-shot
+created: 2026-10-13
