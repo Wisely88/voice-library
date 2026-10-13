@@ -1,0 +1,8 @@
+name: 小糊
+id: xiaohu
+seed_voice: avocado_v2:rumi
+lang: zh
+role: 故事版小狗学生，稚气好奇
+ref_audio: ref.wav
+engine: gpt-sovits zero-shot
+created: 2026-10-13

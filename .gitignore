@@ -1,0 +1,9 @@
+# Python 虚拟环境（本地重建：pip install -r requirements）
+venv/
+# pip 缓存与临时文件
+pipcache/
+tmp/
+# 服务日志
+api.log
+# 合成输出
+*.tmp.wav

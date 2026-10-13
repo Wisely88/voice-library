@@ -1,0 +1,8 @@
+name: 微课旁白
+id: v1narrator
+seed_voice: avocado_v2:MAI_03
+lang: zh
+role: 字幕卡版微课旁白，标准女声
+ref_audio: ref.wav
+engine: gpt-sovits zero-shot
+created: 2026-10-13

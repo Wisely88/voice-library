@@ -1,0 +1,8 @@
+name: 旁白
+id: narrator
+seed_voice: avocado_v2:casper
+lang: zh
+role: 故事版旁白，沉稳讲述，男女莫辨的叙述音
+ref_audio: ref.wav
+engine: gpt-sovits zero-shot
+created: 2026-10-13

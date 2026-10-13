@@ -1,0 +1,8 @@
+name: 电电老师
+id: diandian
+seed_voice: avocado_v2:MAI_01
+lang: zh
+role: 故事版主讲老师，亲切活泼的女老师
+ref_audio: ref.wav
+engine: gpt-sovits zero-shot
+created: 2026-10-13
