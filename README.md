@@ -1,7 +1,7 @@
 # 自有语音库 · voice_library/
 
 用 GPT-SoVITS zero-shot v2 克隆的专属角色音色，后续配音不再依赖外部 API。
-2026-10-13 已验证：4 个音色全部合成成功。
+2026-10-13 已验证：7 个音色全部合成成功（4 个种子音色 + 3 个变调设计角色音色）。
 
 ## 结构
 
@@ -15,6 +15,9 @@ voice_library/
 │   ├── narrator/       # 旁白（种子 avocado_v2:casper）
 │   ├── diandian/       # 电电老师（种子 avocado_v2:MAI_01）
 │   ├── xiaohu/         # 小糊（种子 avocado_v2:rumi）
+│   ├── lele/           # 乐乐（由 diandian +5 半音变调设计，阳光小男孩）
+│   ├── mia/            # 米娅（由 v1narrator +3 半音变调设计，好奇小女孩）
+│   ├── drhoot/         # 睿博士（由 narrator -4 半音变调设计，睿智长者）
 │   └── v1narrator/     # 微课旁白（种子 avocado_v2:MAI_03）
 │       ├── ref.wav     # 参考音频（3~10 秒，API 硬性要求；32kHz 单声道）
 │       ├── ref.txt     # 参考音频逐字稿（必须与音频逐字对应！）
